@@ -49,6 +49,11 @@ body {
     background-size: cover;
 } */
 
+#smallalum {
+	height: 250px;
+	width: 180px;
+}
+
 .dropdown-menu {
 	margin-right: -80%;
 }
