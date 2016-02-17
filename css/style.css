@@ -49,6 +49,13 @@ body {
     background-size: cover;
 } */
 
+.dates {
+	display: inline-block;
+	padding: 3px;
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
 #smallalum {
 	height: 250px;
 	width: 180px;
@@ -201,7 +208,7 @@ body { font-family: 'roboto', Arial, Helvetica, sans-serif }
 .newstape a { color: #F5F7FA; }
 
 #wrapper {
-  width: 450px;
+  width: 850px;
   margin: 0 auto;
 }
 
