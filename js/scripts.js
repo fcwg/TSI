@@ -262,10 +262,11 @@ dragable: true
 
 		$(".st-testimonials").owlCarousel({
 		singleItem:true,
-		lazyLoad : true,
-		pagination:false,
-		navigation : false,
+		lazyLoad : false,
+		pagination:true,
+		navigation : true,
 		autoPlay: true,
+		
 		});
 
 	}());
