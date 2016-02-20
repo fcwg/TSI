@@ -4,29 +4,29 @@
 
 // fancybox
 
-$(document).ready(function() {
+// $(document).ready(function() {
 
-	/* This is basic - uses default settings */
+// 	/* This is basic - uses default settings */
 	
-	$("a#single_image").fancybox();
+// 	$("a#single_image").fancybox();
 	
-	/* Using custom settings */
+// 	/* Using custom settings */
 	
-	$("a#inline").fancybox({
-		'hideOnContentClick': true
-	});
+// 	$("a#inline").fancybox({
+// 		'hideOnContentClick': true
+// 	});
 
-	/* Apply fancybox to multiple items */
+// 	/* Apply fancybox to multiple items */
 	
-	$("a.group").fancybox({
-		'transitionIn'	:	'elastic',
-		'transitionOut'	:	'elastic',
-		'speedIn'		:	600, 
-		'speedOut'		:	200, 
-		'overlayShow'	:	false
-	});
+// 	$("a.group").fancybox({
+// 		'transitionIn'	:	'elastic',
+// 		'transitionOut'	:	'elastic',
+// 		'speedIn'		:	600, 
+// 		'speedOut'		:	200, 
+// 		'overlayShow'	:	false
+// 	});
 	
-});
+// });
 
 
 // fancybox end
@@ -266,6 +266,7 @@ dragable: true
 		pagination:true,
 		navigation : true,
 		autoPlay: true,
+		// interval: true, 800
 		
 		});
 
