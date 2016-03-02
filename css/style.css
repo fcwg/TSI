@@ -49,6 +49,11 @@ body {
     background-size: cover;
 } */
 
+.fitnesssandy {
+	position: relative;
+	left: 48px;
+}
+
 .dates {
 	display: inline-block;
 	padding: 3px;
