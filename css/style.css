@@ -49,6 +49,10 @@ body {
     background-size: cover;
 } */
 
+#tickertext p {
+	float:right;
+}
+
 .fitnesssandy {
 	position: relative;
 	left: 48px;
