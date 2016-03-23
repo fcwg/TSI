@@ -207,7 +207,7 @@ Element.prototype.hasClass = function(className) {
 $('.newstape').newstape({
 
 // timer period
-period: 30, 
+period: 45, 
 
 // offset pixel count
 offset: 1, 
@@ -248,7 +248,7 @@ dragable: true
         $('li a[href*=#]').bind("click", function(e){
             var anchor = $(this);
             $('html, body').stop().animate({
-                scrollTop: $(anchor.attr('href')).offset().top -79
+                scrollTop: $(anchor.attr('href')).offset().top -210
             }, 1000);
             e.preventDefault();
         });
@@ -264,9 +264,8 @@ dragable: true
 		singleItem:true,
 		lazyLoad : false,
 		pagination:true,
-		navigation : true,
-		autoPlay: true,
-		// interval: true, 800
+		navigation : false,
+		autoPlay: 10000
 		
 		});
 
