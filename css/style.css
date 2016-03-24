@@ -49,6 +49,11 @@ body {
     background-size: cover;
 } */
 
+#office-carousel {
+	position: relative;
+	right: 10%;
+}
+
 #tickertext p {
 	float:right;
 }
