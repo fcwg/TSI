@@ -49,6 +49,18 @@ body {
     background-size: cover;
 } */
 
+#pbbrochurefront {
+	position: relative;
+
+}
+
+#pebblebeachad img {
+	width: 40%;
+	height: 40%;
+	position: relative;
+	left: 100px;
+}
+
 #office-carousel {
 	position: relative;
 	right: 10%;
