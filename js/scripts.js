@@ -250,9 +250,10 @@ dragable: true
             $('html, body').stop().animate({
                 scrollTop: $(anchor.attr('href')).offset().top -210
             }, 1000);
-            e.preventDefault();
+            // e.preventDefault();
         });
     }());
+
 
 
     // ----------------------------------------------
