@@ -244,13 +244,15 @@ dragable: true
     // Animated scrolling / Scroll Up
     // -------------------------------------------------------------
 
+    // this code controls scroll of main page:
+
     (function () {
         $('li a[href*=#]').bind("click", function(e){
             var anchor = $(this);
             $('html, body').stop().animate({
                 scrollTop: $(anchor.attr('href')).offset().top -210
             }, 1000);
-            // e.preventDefault();
+            e.preventDefault();
         });
     }());
 

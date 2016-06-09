@@ -49,6 +49,20 @@ body {
     background-size: cover;
 } */
 
+
+.flyer {
+	width: 75%;
+	height: 75%;
+}
+
+.julie {
+	width: 2000px ;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+
+
 #pbbrochurefront {
 	position: relative;
 
@@ -88,7 +102,7 @@ body {
 }
 
 .dropdown-menu {
-	margin-right: -80%;
+	margin-right: -20%;
 }
 
 .dropdown-menu #summer{
@@ -453,6 +467,13 @@ nav ul ul {
 
 
 /*button css*/
+
+.button-text2 {
+  padding: 0 25px;
+  line-height: 56px;
+  letter-spacing: .1em;
+  width: 200px;
+}
 
 #biotext {
 	color: #fff;
