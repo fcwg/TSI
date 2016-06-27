@@ -612,7 +612,7 @@ nav ul ul {
 		width: 15%;
 		position: relative;
 		left: 8%;
-		/*top: 60px;*/
+		top: 25px;
 
 	}
 
@@ -780,11 +780,11 @@ nav ul ul {
 
 	.st-navbar{
 		background-color: #fff;
-		border-bottom: 5px solid #D8D8D8;
+		border-bottom: 1px solid #D8D8D8;
 	}
 
 	.st-navbar ul{
-		margin-top: 35px;
+		margin-top: 15px;
 	}
 
 	.st-navbar ul li a{
@@ -820,7 +820,7 @@ nav ul ul {
 /* 5. SLIDER */
 
 	#slider{
-		margin-top: 150px;
+		margin-top: 80px;
 		padding-bottom: 0px;
 	}
 
