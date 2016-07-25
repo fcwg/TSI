@@ -87,7 +87,6 @@
 		 });
 
 
-// dropdown menu
 var dropdown = document.querySelectorAll('.dropdown');
 var dropdownArray = Array.prototype.slice.call(dropdown,0);
 dropdownArray.forEach(function(el){
@@ -202,9 +201,8 @@ Element.prototype.hasClass = function(className) {
 	}()); 
 
 
-// Begin news ticker
 
-$('.newstape').newstape({
+$('newstape').newstape({
 
 // timer period
 period: 45, 
@@ -259,7 +257,6 @@ dragable: true
 
 
     // ----------------------------------------------
-    // Owl Carousel
     // ----------------------------------------------
 	(function () {
 
