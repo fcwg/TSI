@@ -156,6 +156,7 @@ body {
 
 .dropdown-menu {
 	margin-right: -20%;
+	font-size: 14px;
 }
 
 .dropdown-menu #summer{
@@ -564,6 +565,7 @@ nav ul ul {
   padding: 0 25px;
   line-height: 56px;
   letter-spacing: .1em;
+  font-weight: bold;
 }
 .button-inside {
   width: 0px;
