@@ -1326,7 +1326,7 @@ nav ul ul {
 		transform: scale(0.5);
 	}
 
-	.team-memberhover .member-social{
+	.team-member:hover .member-social{
 		opacity: 1;
 		-moz-transform: scale(1);
 		-webkit-transform: scale(1);
