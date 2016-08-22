@@ -1736,4 +1736,16 @@ nav ul ul {
 
 
 
+/*Announcement Text*/
 
+.announcement-text {
+	font-size: 18px;
+}
+
+.bold-text {
+	font-weight: bold;
+}
+
+.center-text {
+	text-align: center;
+}
