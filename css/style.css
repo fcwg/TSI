@@ -1756,3 +1756,7 @@ nav ul ul {
 .center-text {
 	text-align: center;
 }
+
+#player {
+	margin: 0 auto;
+}
