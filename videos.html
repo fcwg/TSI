@@ -156,46 +156,42 @@
 	
 	<!-- Videos -->
 	<section id="videos">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
+		<section id="junior-vimeo">
+		<div class="vimeo">
+			<div class="center-text">
+				<div class="container">
 					<div class="section-title">
-						<br><br><br><br><br>
-						<h1>Videos</h1>
-						<span class="st-border"></span>
+						<h1>Tompkins Tennis Videos</h1>
 					</div>
 				</div>
-
-				<div class="col-sm-4">
-					<div>
-						<iframe src="https://player.vimeo.com/video/31126616" width="350" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/47566094">Training Program I</a> from <a href="https://vimeo.com/user9036460">Tompkins Tennis</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-					</div>
-				</div>
-
-					<div class="col-sm-4">
-						<iframe src="https://player.vimeo.com/video/56342850" width="350" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/56342850">Tournament Training II</a> from <a href="https://vimeo.com/user9036460">Tompkins Tennis</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-					</div>
-
-					<div class="col-sm-4">
-							<iframe src="https://player.vimeo.com/video/47566094" width="350" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/47566094">Training Program III</a> from <a href="https://vimeo.com/user9036460">Tompkins Tennis</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-					</div>
-
-					<!-- break -->
-
-					<div class="col-sm-4">
-							<iframe src="https://player.vimeo.com/video/47636468" width="350" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/47636468">Training Program II</a> from <a href="https://vimeo.com/user9036460">Tompkins Tennis</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-					</div>
-					<div class="col-sm-4">
-							<iframe src="https://player.vimeo.com/video/63544103" width="350" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/63544103">Jr. Aces</a> from <a href="https://vimeo.com/user9036460">Tompkins Tennis</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-					</div>
-					<div class="col-sm-4">
-							<iframe src="https://player.vimeo.com/video/63541512" width="350" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> <p><a href="https://vimeo.com/63541512">Future Slammers</a> from <a href="https://vimeo.com/user9036460">Tompkins Tennis</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-					</div>
-
-
-				
 			</div>
-			
+				<div id="player">
+
+					<!-- <iframe src="https://player.vimeo.com/hubnut/album/4110277?color=01a3d5&amp;background=000000&amp;slideshow=0&amp;video_title=1&amp;video_byline=1" width="800" height="400" frameborder="1" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> -->
+					<script src="http://luwes.co/vimeowrap.js/vimeowrap.js"></script>
+					<script src="http://luwes.co/vimeowrap.js/vimeowrap.playlist.js"></script>
+					<script>
+						vimeowrap('player').setup({
+							urls: [
+								'https://vimeo.com/album/4110277'
+							],
+							width: 600,
+							height: 400,
+							plugins: {
+								'playlist':{
+									position: 'right',
+									size: 375,
+									thumb: {
+										height: 75,
+									}
+									
+								},
+
+							}
+
+						});
+					</script>
+				</div>
 		</div>
 	</section>
 	<!-- /PRICING -->
