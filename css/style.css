@@ -258,8 +258,8 @@ h6 {
 
 }
 
-.
-media img {
+
+@media img {
 	width: 50%;
 	height: 50%;
 }
@@ -290,6 +290,15 @@ media img {
 
 
 
+}
+
+#Blackspace3 {
+	position: relative;
+	left: 130%;
+	height: 100%;
+	width: 100%;
+	/*color: #01A3D5;*/
+	/*font-weight: bolder;*/
 }
 
 /*buttons*/
