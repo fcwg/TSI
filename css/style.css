@@ -1785,3 +1785,7 @@ nav ul ul {
 .adult-padding {
 	padding-top: 10%
 }
+
+.table-bordered {
+	border: 6px solid #ddd;
+}
