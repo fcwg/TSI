@@ -258,8 +258,8 @@ h6 {
 
 }
 
-.
-media img {
+
+@media img {
 	width: 50%;
 	height: 50%;
 }
@@ -290,6 +290,15 @@ media img {
 
 
 
+}
+
+#Blackspace3 {
+	position: relative;
+	left: 130%;
+	height: 100%;
+	width: 100%;
+	/*color: #01A3D5;*/
+	/*font-weight: bolder;*/
 }
 
 /*buttons*/
@@ -1769,4 +1778,23 @@ nav ul ul {
 .vimeo {
 	padding-top: 5%;
 	padding-bottom: 5%;
+}
+
+.adult-table {
+	list-style: none;
+	font-size: 16px;
+	/*font-weight: bold;*/
+}
+
+.location {
+	font-style: italic;
+	font-weight: bold;
+}
+
+.adult-padding {
+	padding-top: 10%
+}
+
+.table-bordered {
+	border: 6px solid #ddd;
 }
