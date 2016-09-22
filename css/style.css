@@ -1792,9 +1792,14 @@ nav ul ul {
 }
 
 .adult-padding {
-	padding-top: 10%
+	padding-top: 10%;
 }
 
 .table-bordered {
 	border: 6px solid #ddd;
+}
+
+.adult-registration {
+	padding-top: 10%;
+	text-align: center;
 }
