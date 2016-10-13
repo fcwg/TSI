@@ -1803,3 +1803,12 @@ nav ul ul {
 	padding-top: 10%;
 	text-align: center;
 }
+
+.fitness-bio {
+	color: #fff;
+    position: relative;
+     top: 5%; 
+    /*margin-bottom: 20px;*/
+    bottom: 6%;
+
+}
