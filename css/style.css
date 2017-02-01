@@ -1829,3 +1829,21 @@ nav ul ul {
     width: 100%;
     font-style: 12px;
 }
+
+#announcements-pebble {
+	text-align: center;
+}
+
+.pebble-text {
+	text-transform: uppercase;
+    font-size: 16px;
+}
+
+.image-announcement-2 {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    margin-bottom: 10px;
+    margin-top: -25px;
+}
