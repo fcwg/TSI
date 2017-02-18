@@ -275,12 +275,17 @@ h6 {
 	right: 5%;
 }
 
+#blackSpace4 {
+	position: relative;
+	right: 3%;
+}
+
 #BlackSpace {
 		position: relative;
 		left: 120%;
 		height: 100%;
 		width: 100%;
-	}
+}
 
 #laura {
 
@@ -1850,4 +1855,8 @@ nav ul ul {
 
 .red-text {
 	color: #db2a0a;
+}
+
+.picture {
+	background: ;
 }
