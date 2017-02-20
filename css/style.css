@@ -297,6 +297,14 @@ h6 {
 
 }
 
+#pebble-slider {
+	position: relative;
+    left: 120%;
+    top: 260px;
+}
+
+
+
 #Blackspace3 {
 	position: relative;
 	left: 130%;
@@ -906,6 +914,14 @@ nav ul ul {
 		background-position: center top;
 		background-repeat: no-repeat;
 		background-size:cover;
+		width:100%;
+		height: 650px;
+	}
+
+	#home-carousel  .item2 {
+		background-position: center top;
+		background-repeat: no-repeat;
+		background-size: contain;
 		width:100%;
 		height: 650px;
 	}
@@ -1857,6 +1873,7 @@ nav ul ul {
 	color: #db2a0a;
 }
 
-.picture {
-	background: ;
-}
+/*.picture {
+	background-size: contain !important;
+	width: 100%;
+}*/
