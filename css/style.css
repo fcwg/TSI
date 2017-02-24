@@ -265,6 +265,8 @@ h6 {
 }
 
 
+
+
 #blackSpace1 {
 	position: relative;
 	right: 5%;
@@ -275,12 +277,17 @@ h6 {
 	right: 5%;
 }
 
+#blackSpace4 {
+	position: relative;
+	right: 3%;
+}
+
 #BlackSpace {
 		position: relative;
 		left: 120%;
 		height: 100%;
 		width: 100%;
-	}
+}
 
 #laura {
 
@@ -291,6 +298,33 @@ h6 {
 
 
 }
+
+#pebble-slider {
+	position: relative;
+    left: 30%;
+    top: 280px;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px) {
+    #pebble-slider {
+        top: 220px;
+        font-size: 40px;
+    }
+}
+@media screen and (max-width: 768px) {
+    #pebble-slider {
+        top: 200px;
+    }
+}
+/*@media screen and (max-width: 4000px) {
+    #pebble-slider {
+        top: 280px;
+    }
+}*/
 
 #Blackspace3 {
 	position: relative;
@@ -901,6 +935,14 @@ nav ul ul {
 		background-position: center top;
 		background-repeat: no-repeat;
 		background-size:cover;
+		width:100%;
+		height: 650px;
+	}
+
+	#home-carousel  .item2 {
+		background-position: center top;
+		background-repeat: no-repeat;
+		background-size: contain;
 		width:100%;
 		height: 650px;
 	}
@@ -1847,3 +1889,12 @@ nav ul ul {
     margin-bottom: 10px;
     margin-top: -25px;
 }
+
+.red-text {
+	color: #db2a0a;
+}
+
+/*.picture {
+	background-size: contain !important;
+	width: 100%;
+}*/
