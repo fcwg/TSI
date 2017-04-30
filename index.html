@@ -370,11 +370,51 @@
 				
 		</div>
 	</section>
+
+
+
+
 <hr>
 
+	<section id="junior-vimeo">
+		<!-- <div class="container"> -->
+			<div class="center-text">
+				<div class="container">
+					<div class="section-title">
+						<h1>Pebble Beach Videos</h1>
+					</div>
+				</div>
+			</div>
+				<div id="player">
 
+					<!-- <iframe src="https://player.vimeo.com/hubnut/album/4110277?color=01a3d5&amp;background=000000&amp;slideshow=0&amp;video_title=1&amp;video_byline=1" width="800" height="400" frameborder="1" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> -->
+					<script src="https://luwes.github.io/vimeowrap.js/vimeowrap.js"></script>
+					<script src="https://luwes.github.io/vimeowrap.js/vimeowrap.playlist.js"></script>
+					<script>
+						vimeowrap('player').setup({
+							urls: [
+								'https://vimeo.com/album/4377958'
+							],
+							width: 600,
+							height: 400,
+							plugins: {
+								'playlist':{
+									position: 'right',
+									size: 375,
+									thumb: {
+										height: 75,
+									}
+									
+								},
 
+							}
 
+						});
+					</script>
+				</div>
+		<!-- </div> -->
+	</section>
+<hr>
 
 <hr>
 
@@ -421,48 +461,7 @@
 	</section>
 <hr>
 
-<hr>
 
-	<section id="junior-vimeo">
-		<!-- <div class="container"> -->
-			<div class="center-text">
-				<div class="container">
-					<div class="section-title">
-						<h1>Pebble Beach Videos</h1>
-					</div>
-				</div>
-			</div>
-				<div id="player">
-
-					<!-- <iframe src="https://player.vimeo.com/hubnut/album/4110277?color=01a3d5&amp;background=000000&amp;slideshow=0&amp;video_title=1&amp;video_byline=1" width="800" height="400" frameborder="1" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> -->
-					<script src="https://luwes.github.io/vimeowrap.js/vimeowrap.js"></script>
-					<script src="https://luwes.github.io/vimeowrap.js/vimeowrap.playlist.js"></script>
-					<script>
-						vimeowrap('player').setup({
-							urls: [
-								'https://vimeo.com/album/4377958'
-							],
-							width: 600,
-							height: 400,
-							plugins: {
-								'playlist':{
-									position: 'right',
-									size: 375,
-									thumb: {
-										height: 75,
-									}
-									
-								},
-
-							}
-
-						});
-					</script>
-				</div>
-		<!-- </div> -->
-	</section>
-
-<hr>
 
 <!-- <hr> -->
 
@@ -829,7 +828,7 @@
 	</section>
 	<!-- /OUR TEAM -->
 		<hr>
-
+		<hr>
 		<!-- Tompkins Alumni -->
 	<section id="alumni">
 		<div class="container">
