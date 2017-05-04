@@ -1898,3 +1898,22 @@ nav ul ul {
 	background-size: contain !important;
 	width: 100%;
 }*/
+
+.button-fill-tourney {
+	text-align: center;
+    background: #ccc;
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+    /* margin: 25px; */
+    width: 200px;
+}
+
+.button-fill-tourney.grey {
+  /*background: #01A3D5;*/
+  /*color: white;*/
+  background: white;
+  border: 3px solid #01A3D5;
+  font-weight: bold;
+
+}
