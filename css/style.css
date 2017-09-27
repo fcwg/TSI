@@ -1920,11 +1920,13 @@ nav ul ul {
 
 .unordered-first {
 	padding-left: 20px;
+	font-size: 18px;
 }
 
 .unordered-second {
 	padding-left: 40px;
     list-style: square;
+    font-size: 16px;
 
 }
 
@@ -1932,4 +1934,10 @@ nav ul ul {
 .unordered-third {
 	padding-left: 60px;
     list-style: lower-alpha;
+    font-size: 14px;
+}
+
+.ordered-header {
+	font-size: 20px;
+    font-weight: bold;
 }
