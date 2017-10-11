@@ -1941,3 +1941,17 @@ nav ul ul {
 	font-size: 20px;
     font-weight: bold;
 }
+
+.checkmark-list::before {
+	content: "\e013";
+    font-family: 'Glyphicons Halflings';
+    font-size: 12px;
+    float: left;
+    color: black;
+    margin-right: 6px;
+    margin-top: 4px;
+}
+
+.checkmark-list {
+	font-size: 18px;
+}
