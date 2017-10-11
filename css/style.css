@@ -1955,3 +1955,7 @@ nav ul ul {
 .checkmark-list {
 	font-size: 18px;
 }
+
+.checkmark-list:hover {
+	background-color: #01A3D5;
+}
