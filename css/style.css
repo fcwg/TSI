@@ -1959,3 +1959,30 @@ nav ul ul {
 .checkmark-list:hover {
 	background-color: #01A3D5;
 }
+
+.logo-banner {
+	width: 200px;
+	height:200px;
+}
+
+.babolat-banner {
+	width: 75%;
+	height: 50%;
+}
+
+
+
+.BlackSpace8 {
+	position: relative;
+	left: 50%;
+	top: 50px;
+	height: 100%;
+	width: 100%;
+}
+
+@media (max-width: 768px) {
+	.BlackSpace8 {
+		left: 60%;
+	}
+}
+
