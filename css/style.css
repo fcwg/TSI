@@ -1962,7 +1962,7 @@ nav ul ul {
 
 .logo-banner {
 	width: 200px;
-	height:200px;
+	height: 200px;
 }
 
 .babolat-banner {
@@ -1980,9 +1980,14 @@ nav ul ul {
 	width: 100%;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 1024px) {
+	
 	.BlackSpace8 {
+		
 		left: 60%;
+	
 	}
 }
+
+
 
