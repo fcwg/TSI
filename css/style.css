@@ -1941,3 +1941,53 @@ nav ul ul {
 	font-size: 20px;
     font-weight: bold;
 }
+
+.checkmark-list::before {
+	content: "\e013";
+    font-family: 'Glyphicons Halflings';
+    font-size: 12px;
+    float: left;
+    color: black;
+    margin-right: 6px;
+    margin-top: 4px;
+}
+
+.checkmark-list {
+	font-size: 18px;
+}
+
+.checkmark-list:hover {
+	background-color: #01A3D5;
+}
+
+.logo-banner {
+	width: 200px;
+	height: 200px;
+}
+
+.babolat-banner {
+	width: 75%;
+	height: 50%;
+}
+
+
+
+.BlackSpace8 {
+	position: relative;
+	left: 50%;
+	top: 50px;
+	height: 100%;
+	width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+	
+	.BlackSpace8 {
+		
+		left: 60%;
+	
+	}
+}
+
+
+
