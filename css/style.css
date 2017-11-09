@@ -1989,5 +1989,22 @@ nav ul ul {
 	}
 }
 
+.location-section {
+	margin-top: 30px;
+}
 
+.location-header-container
+{
+	    padding-top: 30px;
+}
 
+.white-text {
+	color: white;
+}
+
+@media screen and (max-width: 1024px) {
+	
+	.location-header-container {
+		  padding-top: 50px;
+	}
+}
