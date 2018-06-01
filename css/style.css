@@ -719,7 +719,7 @@ nav ul ul {
 		width: 15%;
 		position: relative;
 		left: 8%;
-		top: 25px;
+		top: -10px;
 
 	}
 
@@ -891,7 +891,7 @@ nav ul ul {
 	}
 
 	.st-navbar ul{
-		margin-top: 15px;
+		margin-top: 20px;
 	}
 
 	.st-navbar ul li a{
@@ -1995,7 +1995,7 @@ nav ul ul {
 
 .location-header-container
 {
-	    padding-top: 30px;
+	    padding-top: 70px;
 }
 
 .white-text {
@@ -2005,6 +2005,6 @@ nav ul ul {
 @media screen and (max-width: 1024px) {
 	
 	.location-header-container {
-		  padding-top: 50px;
+		  padding-top: 120px;
 	}
 }
