@@ -2008,3 +2008,11 @@ nav ul ul {
 		  padding-top: 120px;
 	}
 }
+.underline-text{
+	text-decoration: underline;
+	color:  #01A3D5
+}
+
+.instructions-text {
+	font-size: 18px;
+}
